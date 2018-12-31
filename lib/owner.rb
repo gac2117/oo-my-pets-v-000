@@ -14,6 +14,10 @@ class Owner
     OWNERS
   end
 
+  def self.reset_all
+    OWNERS.clear
+  end
+
   def self.count
     OWNERS.size
   end
