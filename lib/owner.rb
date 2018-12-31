@@ -51,4 +51,8 @@ class Owner
       fish.mood = "happy"
     end
   end
+
+  def say_species
+    puts "I am a #{species}."
+  end
 end
